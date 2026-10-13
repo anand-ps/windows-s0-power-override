@@ -1,11 +1,2 @@
-# Ignore all obj folders
-**/obj/
-
-# Ignore everything inside bin
-bin/**
-!bin/Release/
-!bin/Release/net8.0-windows/
-!bin/Release/net8.0-windows/win-x64/
-
-# Allow only the application executable
-!bin/Release/net8.0-windows/win-x64/WindowsS0PowerOverride.exe
+bin/
+obj/
